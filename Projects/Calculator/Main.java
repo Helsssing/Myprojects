@@ -51,7 +51,6 @@ public class Main {
             throw new Exception("Разные системы счисления");
         }
 
-
         if (isarabic1) {
             num1 = Integer.parseInt(numbersStr[0]);
             num2 = Integer.parseInt(numbersStr[1]);
@@ -130,7 +129,5 @@ public class Main {
                     "LXXXIX", "XC", "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"
             };
             return romanAll[arabNumeral];
-
         }
-
 }
