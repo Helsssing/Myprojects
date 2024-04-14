@@ -75,7 +75,7 @@ public class Main {
             }
         }
     }
-        static int calculate ( int x1, int x2, char op){
+        static int calculate (int x1, int x2, char op){
             int result = 0;
             switch (op) {
                 case '+':
